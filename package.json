@@ -1,0 +1,19 @@
+{
+  "name": "bull-queue",
+  "version": "1.0.0",
+  "main": "emailQueue.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "bull": "^4.16.4",
+    "express": "^4.21.1",
+    "ioredis": "^5.4.1"
+  }
+}
